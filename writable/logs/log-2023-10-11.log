@@ -1,0 +1,57 @@
+CRITICAL - 2023-10-11 06:37:07 --> Undefined variable $article
+in APPPATH\Views\Articles\index.php on line 11.
+ 1 APPPATH\Views\Articles\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $article', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\Articles\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\Articles\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Articles/index', [], true)
+ 5 APPPATH\Controllers\Articles.php(14): view('Articles/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Articles->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articles))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 06:37:08 --> Undefined variable $article
+in APPPATH\Views\Articles\index.php on line 11.
+ 1 APPPATH\Views\Articles\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $article', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\Articles\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\Articles\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Articles/index', [], true)
+ 5 APPPATH\Controllers\Articles.php(14): view('Articles/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Articles->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articles))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 06:37:10 --> Undefined variable $article
+in APPPATH\Views\Articles\index.php on line 11.
+ 1 APPPATH\Views\Articles\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $article', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\Articles\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\Articles\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Articles/index', [], true)
+ 5 APPPATH\Controllers\Articles.php(14): view('Articles/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Articles->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articles))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 07:32:40 --> Controller or its method is not found: articles::new
+in SYSTEMPATH\Helpers\url_helper.php on line 484.
+ 1 SYSTEMPATH\Helpers\url_helper.php(484): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('articles', 'new')
+ 2 APPPATH\Views\Articles\index.php(8): url_to('articles::new')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\Articles\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Articles/index', [], true)
+ 6 APPPATH\Controllers\Articles.php(14): view('Articles/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Articles->index()
+ 8 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articles))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 07:36:56 --> The route for "Articles/new" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 487.
+ 1 SYSTEMPATH\Helpers\url_helper.php(487): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('Articles/new')
+ 2 APPPATH\Views\Articles\index.php(8): url_to('Articles/new')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\Articles\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Articles/index', [], true)
+ 6 APPPATH\Controllers\Articles.php(14): view('Articles/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Articles->index()
+ 8 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articles))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
